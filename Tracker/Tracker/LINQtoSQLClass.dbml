@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Password" Class="LINQtoSQLClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=Password;Integrated Security=True;Pooling=False" SettingsObjectName="Tracker.Properties.Settings" SettingsPropertyName="PasswordConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.nPassword" Member="nPasswords">
+    <Type Name="nPassword">
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
