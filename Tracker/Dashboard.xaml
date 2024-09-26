@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Dashboard" Height="450" Width="380"
         AllowsTransparency="True" Background="Transparent"
-        WindowStyle="None" ResizeMode="NoResize">
+        WindowStyle="None" ResizeMode="NoResize"
+        MouseDown="Window_OnMouseDown">
     <Grid>
         <Grid>
             <Grid.RowDefinitions>
@@ -27,12 +28,12 @@
 
             <StackPanel VerticalAlignment="Center">
 
-                <TextBlock Text="Welcome to the Dashboard"
+                <TextBlock Text="Welcome to the Account Dashboard!"
                            FontWeight="Light"
                            FontFamily="helvetica"
                            FontSize="22"
                            Foreground="White"
-                           HorizontalAlignment="Center" Margin="58,0,51,0" Height="29" Width="271"/>
+                           HorizontalAlignment="Center" Margin="58,0,51,0" Height="58" Width="271" TextWrapping="Wrap" TextAlignment="Center"/>
             </StackPanel>
 
             <StackPanel Grid.Row="1" >
@@ -46,14 +47,26 @@
 
 
                 <StackPanel Orientation="Horizontal" 
-                            Margin="0,50,0,0">
-                    <Button Width="100"
-                            Height="40"
+                            Margin="-125,185,0,0">
+                    <Button Width="80"
+                            Height="33"
                             Content="LOGOUT"
                             Margin="130,0,60,0" 
                             Click="logout"/>
 
                 </StackPanel>
+
+                <StackPanel Orientation="Horizontal" 
+                            Margin="-30,-400,0,0">
+                    <Button Width="182"
+                        Height="80"
+                        Content="Manage Accounts"
+                        Margin="130,0,60,0" Click="AccountManage" FontSize="20"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" 
+                            Margin="75,-400,0,0"/>
 
             </StackPanel>
         </Grid>

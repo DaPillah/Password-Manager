@@ -42,5 +42,17 @@ namespace Tracker
             mwd.Show();
             this.Close();
         }
+
+        private void AccountManage(object sender, RoutedEventArgs e)
+        {
+            ManageAccounts m = new ManageAccounts();
+            m.Show();
+            this.Close();
+        }
+        private void Window_OnMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
+        }
     }
 }

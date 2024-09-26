@@ -34,3 +34,5 @@ C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\bin\Debug\MySql.Data.Enti
 C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\bin\Debug\MySql.Data.EntityFramework.xml
 C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\obj\Debug\Register.g.cs
 C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\obj\Debug\Register.baml
+C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\obj\Debug\ManageAccounts.g.cs
+C:\Users\Justin Oketunmbi\source\repos\Tracker\Tracker\obj\Debug\ManageAccounts.baml

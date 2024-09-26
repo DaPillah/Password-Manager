@@ -36,7 +36,7 @@ namespace Tracker
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
-        }
+       }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -103,25 +103,16 @@ namespace Tracker
                 return false;
             }
         }
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+  /*      public void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             DragMove();
         }
-
+*/
         private void exit(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
-        private void show(object sender, RoutedEventArgs e)
-        {
-            
-            
-        }
-
-        private void CheckBox_Checked(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

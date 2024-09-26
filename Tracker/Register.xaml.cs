@@ -49,5 +49,11 @@ namespace Tracker
         {
             DragMove();
         }
+        private void Window_OnMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
+        }
+       
     }
 }
